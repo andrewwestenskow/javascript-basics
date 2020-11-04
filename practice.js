@@ -3,6 +3,7 @@
 //Create a variable called myName that is a string data type
 
 //Code here
+const myName = 'Andrew'
 
 //////////////////PROBLEM 2////////////////////
 
@@ -36,7 +37,6 @@
 //plus the value of the name parameter.
 
 //Code here
-
 
 //////////////////PROBLEM 7////////////////////
 
@@ -75,7 +75,7 @@
 
 //////////////////PROBLEM 11////////////////////
 
-//Write a function called nameCheck that takes in a name parameter. 
+//Write a function called nameCheck that takes in a name parameter.
 //nameCheck should check if the name equals 'Steven'. If it does,
 // return 'What is up Steven?'
 //If the name parameter is Bryan, return 'Hey Bryan!'
@@ -110,17 +110,17 @@
 
 //////////////////PROBLEM 14////////////////////
 
-let duck = "cute";
+let duck = 'cute'
 
 function bathroom() {
-  let rubberDuck = "squeaky";
+  let rubberDuck = 'squeaky'
   function bathtub() {
-    let sailorDuck = "nautical";
+    let sailorDuck = 'nautical'
   }
 }
 
 function pond() {
-  let realDuck = "fluffy";
+  let realDuck = 'fluffy'
 }
 
 //There are 4 variables above: duck, rubberDuck, sailorDuck and realDuck
@@ -130,16 +130,16 @@ function pond() {
 //as strings.
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+let globalScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck']
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+let bathroomScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck']
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+let bathtubScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck']
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+let pondScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck']
 
 //////////////////PROBLEM 15////////////////////
 
